@@ -42,3 +42,23 @@ def descending_order(num):
     return int(ans)
 
 #7 zadanie 
+def greet():
+    return "hello world!"
+
+#8 zadanie
+def lovefunc( flower1, flower2 ):
+    if flower1 % 2 == 0 and flower2 % 2 !=0:
+        return True
+    elif flower1 % 2 != 0 and flower2 % 2 == 0:
+        return True
+    else:
+        return False
+
+#9 zadanie 
+def grow(arr):
+    result = 1
+    for num in arr:
+        result *= num
+    return result
+
+#10 zadanie 
